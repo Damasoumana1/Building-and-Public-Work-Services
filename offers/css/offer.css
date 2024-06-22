@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Monserrat,sans-serif;
+  }
+  .our{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    color: #ccc;
+  }
+  
+  
+  .all{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+background-image: url(../offers/Prix\ rénovation\ maison\ _\ quel\ budget\ prévoir\ pour\ vos\ travaux\ _.jpeg);
+  }
+  .figure1{
+    width: 60%;
+    height: 65vh;
+    align-items: center;
+    display: flex;
+    background-color: gray;
+    float: right;
+    justify-content: center;
+    top: 150px;
+    border-radius: 10px;
+    
+    position: relative;left: -50px;
+   
+   
+  }
+  .pub{
+    font-size: 20px;
+    color: #ccc;
+
+    
+  }
+  .pub1{
+    font-size: 50px;
+    color: #ccc;
+  }
+  .pub2{
+    color: #ccc;
+  }
+  .contact{
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  hr{
+    width: 58%;
+    float: right;
+  }
+  .offers{
+    height: 150vh;
+    overflow: hidden;
+  }
+  .offer1{
+float: right;
+  }
+  .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 60%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    text-align: left;
+    border: blue;
+    overflow: hidden;
+    
+    
+    
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    text-indent: 40px;
+  }
+  .position{
+    position: relative;left: 41%;
+   
+  }
+  .request{
+    width: 100%;
+    height: 1000px;
+    
+  }
+  .return{
+    background-color: #46413c;;
+    letter-spacing: 2px;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    display: flex;
+     border: none;
+     text-decoration: none;
+    position: relative;right:-50%;
+    border-radius: 10px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  .plan1{
+    position: relative;
+    top: 10%;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+
+  }
+  .figure2{
+    width: 110%;
+     height: 50vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    float: none;
+    position: relative;left: -50px;
+    top: -20%;
+  }
+  .luxury2{
+   
+    width: 80%;
+    height: 50vh;
+    align-items: center;
+   display: flex;
+    justify-content:space-evenly;
+  }
+  .config2{
+    border: 2px solid #e3e3e3;
+    border: 2px;
+    height: 50vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(2,1,3,0.5);
+  }
+  .img2{
+    margin-top: 10px;
+    height: 35vh;
+    width: 95%;
+    object-fit: cover;
+    justify-content: center;
+    
+  }
+  .config2 #img1{
+    background-image: url(../offers/plan1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+  }
+  
+  .config2 #img2{
+    background-image: url(../offers/plan2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+  
+  }
+  
+  .config2 #img3{
+    background-image: url(../offers/plan3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+  }
+  
+  .config2 #img4{
+    background-image: url(../offers/plan4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+  }
+  .plan2{
+    position: relative;
+    top: -20%;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+  }
+  .figure3{
+    width: 110%;
+     height: 50vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    float: none;
+    position: relative;left: -50px;
+    top: -20%;
+  }
+  .luxury3{
+   
+    width: 80%;
+    height: 50vh;
+    align-items: center;
+   display: flex;
+    justify-content:space-evenly;
+  }
+  .config3{
+    border: 2px solid #e3e3e3;
+    border: 2px;
+    height: 50vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(2,1,3,0.5);
+  }
+  .img3{
+    margin-top: 10px;
+    height: 35vh;
+    width: 95%;
+    object-fit: cover;
+    justify-content: center;
+    
+  }
+  .config3 #img5{
+    background-image: url(../offers/machine1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+  }
+  
+  .config3 #img6{
+    background-image: url(../offers/machine2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+  
+  }
+  
+  .config3 #img7{
+    background-image: url(../offers/machine3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+  }
+  
+  .config3 #img8{
+    background-image: url(../offers/machine4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+  }
+
+  .figure4{
+    width: 110%;
+     height: 50vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    float: none;
+    position: relative;left: -50px;
+    top: -20%;
+  }
+  .luxury4{
+   
+    width: 80%;
+    height: 50vh;
+    align-items: center;
+   display: flex;
+    justify-content:space-evenly;
+  }
+  .config4{
+    border: 2px solid #e3e3e3;
+    border: 2px;
+    height: 50vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(2,1,3,0.5);
+  }
+  .img4{
+    margin-top: 10px;
+    height: 35vh;
+    width: 95%;
+    object-fit: cover;
+    justify-content: center;
+    
+  }
+  .config4 #img9{
+    background-image: url(../offers/offre2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+  }
+  
+  .config4 #img10{
+    background-image: url(../offers/offres2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+  
+  }
+  
+  .config4 #img11{
+    background-image: url(../offers/offre3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+  }
+  
+  .config4 #img12{
+    background-image: url(../offers/offre4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+  }
+  .figure5{
+    width: 110%;
+     height: 50vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    float: none;
+    position: relative;left: -50px;
+    top: -20%;
+    overflow: hidden;
+  }
+  .luxury5{
+   
+    width: 80%;
+    height: 50vh;
+    align-items: center;
+   display: flex;
+    justify-content:space-evenly;
+  }
+  .config5{
+    border: 2px solid #e3e3e3;
+    border: 2px;
+    height: 50vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(2,1,3,0.5);
+  }
+  .img5{
+    margin-top: 10px;
+    height: 35vh;
+    width: 95%;
+    object-fit: cover;
+    justify-content: center;
+    
+  }
+  .config5 #img13{
+    background-image: url(../offers/luxe.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+  }
+  
+  .config5 #img14{
+    background-image: url(../offers/luxe2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+  
+  }
+  
+  .config5 #img15{
+    background-image: url(../offers/luxe3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+  }
+  
+  .config5 #img16{
+    background-image: url(../offers/luxe4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+  }
+  @media screen and (max-width: 600px) {
+    .all,.request[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+  

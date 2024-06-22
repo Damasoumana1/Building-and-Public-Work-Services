@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Register.css">
+    <script src="./js/Register.js">defer</script>
+    <title>Document</title>
+</head>
+<body>
+    <h2 class="platform">Register on our platform so as<br>not to miss our services offers</h2>
+
+
+    <div class="container">
+      <div style="text-align:center">
+        <h2>Register</h2>
+        <p>You are interested by the offers of our company,register_like, or leave us a message:</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="./s'inscrire/map.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <form action="https://www.w3schools.com/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Burkina Faso</option>
+              <option value="canada">Mali</option>
+              <option value="usa">Ghana</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <p class="acount">Do you already have an account? Put your email.</p><br>
+    
+    <h2 class="acount1">Put your email</h2>
+    <a href="./Building and public work service.html"><h3 class="return">return</h3></a>
+    
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+    
+    <div id="id01" class="modal">
+      
+      <form class="modal-content animate" action="https://www.w3schools.com/action_page.php" method="post">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <img src="./s'inscrire/img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
+    
+        <div class="containers">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+    
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+            
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+    
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+    
+</body>
+</html>
